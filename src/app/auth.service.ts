@@ -1,6 +1,8 @@
+import { Injectable } from "@angular/core";
 // import { resolve } from "dns";
 // import { rejects } from "assert";
 
+@Injectable()
 export class AuthService{
     loggedIn =  true;
 
